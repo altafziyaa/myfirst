@@ -16,9 +16,10 @@ class taskController extends Controller
 
         $task = Task::all();
         return view('tasks.index', compact('task'));
+        echo 'hello github';
     }
 
-    /**
+    /**     
      * Show the form for creating a new resource.
      */
     public function create()

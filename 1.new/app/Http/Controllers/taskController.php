@@ -16,7 +16,7 @@ class taskController extends Controller
 
         $task = Task::all();
         return view('tasks.index', compact('task'));
-        echo 'hello github';
+        echo 'hello laravel';
     }
 
     /**     
